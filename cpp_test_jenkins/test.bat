@@ -1,1 +1,1 @@
-start ./Release/cpp_test_jenkins.exe
+call "./Release/cpp_test_jenkins.exe"
