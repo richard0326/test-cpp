@@ -1,1 +1,1 @@
-start ./cpp_test_jenkins/Release/cpp_test_jenkins.exe
+at 10:10 start ./cpp_test_jenkins/Release/cpp_test_jenkins.exe
