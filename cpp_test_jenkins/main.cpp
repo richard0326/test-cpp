@@ -1,11 +1,12 @@
 #include <iostream>
-#include <Windows.h>
+#include <thread>
+#include <chrono>
 using namespace std;
 
 int main()
 {
 	int count = 0;
-	//while (1)
+	while (1)
 	{
 		cout << "Hello Jenkins" << endl;
 
@@ -21,11 +22,10 @@ int main()
 		cout << "release mode" << endl;
 #endif
 
-		Sleep(1000);
-
+		std::this_thread::sleep_for(1000ms);
 		if (count >= 100)
 		{
-			//break;
+			break;
 		}
 		count++;
 	}
