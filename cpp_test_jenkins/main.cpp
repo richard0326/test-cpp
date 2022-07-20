@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
 	int count = 0;
-	while (1)
+	//while (1)
 	{
 		cout << "Hello Jenkins" << endl;
 
@@ -25,7 +25,7 @@ int main()
 
 		if (count >= 100)
 		{
-			break;
+			//break;
 		}
 		count++;
 	}
