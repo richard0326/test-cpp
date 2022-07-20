@@ -4,6 +4,7 @@ using namespace std;
 
 int main()
 {
+	int count = 0;
 	while (1)
 	{
 		cout << "Hello Jenkins" << endl;
@@ -21,6 +22,12 @@ int main()
 #endif
 
 		Sleep(1000);
+
+		if (count >= 100)
+		{
+			break;
+		}
+		count++;
 	}
 	return 0;
 }
