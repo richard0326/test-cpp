@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include <Windows.h>
 using namespace std;
 
 int main()
@@ -19,6 +19,8 @@ int main()
 #elif NDEBUG
 		cout << "release mode" << endl;
 #endif
+
+		Sleep(1000);
 	}
 	return 0;
 }
